@@ -29,12 +29,24 @@ def main():
         L1[i] = blackPawn(chr(i+97))
 
     printf()
-    for i in range(4,8):
+    for i in range(4,6):
         L[0].move(i)
         printf()
-
+    L1[1].move(5)
     printf()
-    print(pieces.whitePoints,pieces.blackPoints)
+    L[0].Passant(L1[1])
+    printf()
+
+    for i in range(5, 3, -1):
+        L1[3].move(i)
+        printf()
+
+    L[4].move(4)
+    L[2].move(4)
+    printf()
+    L1[3].Passant(L[4])
+    printf()
+    print(pieces.whitePoints, pieces.blackPoints)
 if __name__ == '__main__':
     main()
 
