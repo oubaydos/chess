@@ -28,6 +28,7 @@ i think everything is okay:
 ----
 21/03/2021 :
     done with Passant method for Pawns
+-
 """
 filled_squares = [
                      [False, False, False, False, False, False, False, False],

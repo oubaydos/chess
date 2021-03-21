@@ -47,6 +47,7 @@ def main():
     L1[3].Passant(L[4])
     printf()
     print(pieces.whitePoints, pieces.blackPoints)
+    printf()
 if __name__ == '__main__':
     main()
 
